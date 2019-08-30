@@ -1,0 +1,11 @@
+L5
+* disciminative learning rates for transfer-learning
+* "affine functions" ~ any linear func (matrix mult)
+* "embedding" - matrix product with one-hot encoding (lookup)
+* "bias-factor" - constant used to adjust weights (sematic) : for   example, in the Netflix movie-suggestions model, we need to add   positive-bias to movies with Tom Cruise because he is incredible  popular; and, add negative-bias to movies that everyone hates.  
+* "latent-factors" - the biases in user decisions (i.e. brands)
+* "PCA" - compress the number of weights (i.e. 40 -> 3). It is typically a good idea to run models through a PCA at the end? Learn more about it in the fastAI linear algebra class.
+
+* Analysis Technique: we can look at how individual weights rank/evaluate the different items. 
+
+* in Collaborative Filtering, we call the data-items "users" and items" whether it is semantically correct or not"
